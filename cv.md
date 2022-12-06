@@ -29,7 +29,7 @@ ___
 * Stepik
 ___
 ## Projects:
-CV - https://github.com/kukuruku62/rsschool-cv/blob/5a74cb2f8f9687bc7ecc2fbcb412c3913ffa94be/cv.md
+CV - https://kukuruku62.github.io/rsschool-cv/cv
 ___
 Languages:
 * Russian - Native
