@@ -24,7 +24,7 @@ def lovefunc( flower1, flower2 ):
 ___
 ## Education:
 * Moscow Institute of Economics, Management and Law. The manager of the organization.
-* Udemy
+* Udemy (SQL, Python, HTML/CSS, JS)
 * Foxminded (Mentoring Python)
 * Stepik
 ___
