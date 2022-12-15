@@ -1,0 +1,102 @@
+/* ---------------общие настройки---------------------- */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px 50px 0px 50px;
+}
+/* ------------------------------------------------- */
+
+/*----------------- шапка с навигацией-------------- */
+header {
+	text-align: center;
+}
+
+.navigation {
+	list-style-type: none;
+	background-color: rgb(163, 189, 179);
+	padding: 12px 0px 0px 450px;
+	margin: 0px 0px 30px 0px;
+	height: 45px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(242, 235, 211);
+	/* задать цвет и размер текста!!! */
+}
+
+.top {
+	display: inline;
+	margin-right: 40px;
+}
+
+li:last-child {
+	margin-right: 0px;
+}
+
+/* -------------------------------------------------- */
+
+/* ------------Левый блок с фото, aboutme, contact----- */
+#foto {
+	width: 190px;
+	height: 170px;
+	box-shadow: 1px 1px 2px 2px #ccc;
+}
+
+.foto-aboutme-contacts {
+	display: inline-block;
+	width: 350px;
+	height: 800px;
+	margin-right: 163px;
+}
+
+.underline {
+	/* display: block; */
+	margin-bottom: 5px;
+}
+
+
+.other {
+	display: inline-block;
+	width: 650px;
+	height: 190px;
+	position: absolute;
+	text-align: center;
+
+}
+
+h1 {
+	font-size: 36px;
+	margin: 35px 100px 10px 0px;
+}
+
+#undername {
+	margin-right: 320px;
+	width: 100px;
+	height: 3px;
+	background-color: black;
+	
+} 
+
+#position {
+	font-size: 24px;
+	margin: 10px 100px 64px 0px;
+}
+
+#right {
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+#text-aboutme-right {
+	margin-bottom: 23px;
+}
+
+#log {
+	display: block;
+	width: 90px;
+	height: 70px;
+	text-align: right;
+}
