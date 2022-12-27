@@ -167,8 +167,26 @@ p {
 	font-style: normal;
     background: none;
 	margin-bottom: 36px;
+	
 }
 
+.button {
+	background: #EDF2EC;
+	color: #000000;
+	cursor: pointer;
+  }
+
+.button:hover {
+	background: #e06733;
+	color: #FFFFFF;
+	transition: 0.5s;
+}
+
+
+/* button {
+	cursor: pointer; 
+} */
+/* !!!!Проверить баттон!!!! */
 .section-about {
 	background-color: #FFFFFF;
 }
@@ -246,17 +264,22 @@ p {
 }
 
 .button-service {
-	color: #e06733;
 	font-family: 'Inika';
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 26px;
+	color: #e06733;
 	border-radius: 5px;
 	border: 1px solid #E06733;
-	/* padding: 12px 40px; */
 	height: 50px;
 	width: 161px;
-	
+	background-color: #EDF2EC;
+}
+
+.button-service:hover {
+	background: #e06733;
+	color: #FFFFFF;
+	transition: 0.5s;
 }
 
 .column-section-service {
@@ -403,6 +426,13 @@ p {
     background: none;
 }
 
+
+.button-contact:hover {
+	background: #e06733;
+	color: #FFFFFF;
+	transition: 0.5s;
+}
+
 .small-leafs-picture-prices {
 	width: 152px;
 	height: 175px;
@@ -486,4 +516,19 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.soc-icons {
+	display: flex;
+	flex-direction: row;
+	column-gap: 28px;
+}
+
+.soc-icons li a {
+	display: flex;
+	align-items: center;
+}
+
+ul li {
+    list-style: none;
 }
